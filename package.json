@@ -1,9 +1,9 @@
 {
-  "name": "api",
+  "name": "node-express-typescript-tempalte",
   "version": "1.0.0",
-  "description": "",
+  "description": "A template for Node, Express, and Typescript",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node --env-file=.env dist/index.js",
