@@ -1,5 +1,5 @@
-import { format } from 'date-fns';
-import { pino } from 'pino';
+import { format } from 'date-fns'
+import { pino } from 'pino'
 
 export const logger = pino({
   base: {
@@ -14,4 +14,4 @@ export const logger = pino({
   },
 
   timestamp: () => `,"time":"${format(new Date(), 'hh:mm:ss aa | MMM-dd-yyyy')}"`,
-});
+})
