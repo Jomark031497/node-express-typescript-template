@@ -1,4 +1,4 @@
-## Node-Express-Typescript starter
+# Node-Express-Typescript starter
 
 A basic starter template for building Node.js Express application using Typescript.
 
@@ -9,7 +9,7 @@ Features:
 - ESLint
 - Prettier
 
-# Prerequisites:
+## Prerequisites:
 
 - Node.js (version 20.x.x)
 - pnpm (version 8.x.x)
